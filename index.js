@@ -29,16 +29,16 @@ divide(g, h);
 
 
 let i = Math.floor(Math.random() * 1000);
-function inc(i){
+function increment(i){
 return i+1;
 }
-inc(i);
+increment(i);
 
 let j = Math.floor(Math.random() * 1000);
-function dec(j){
+function decrement(j){
 return j-1;
 }
-dec(j);
+decrement(j);
 
 let k = Math.floor(Math.random() * 1000);
 function makeInt(k){
